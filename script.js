@@ -22,6 +22,7 @@ const getSum = () => {
     rtc.textContent = `${sm}`;
 
     let tmpP = document.createElement("tr");
+	tmpP.setAttribute("id","ans");
 
     tmpP.appendChild(ltc);
     tmpP.appendChild(rtc);
